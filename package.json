@@ -1,0 +1,17 @@
+{
+  "name": "@repro/cache-no-provide",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "reproduce": "node reproduce.mjs",
+    "dev": "astro dev"
+  },
+  "dependencies": {
+    "astro": "7.4.0-beta.1",
+    "@astrojs/cloudflare": "15.0.0-beta.1",
+    "hono": "4.13.7"
+  },
+  "devDependencies": {
+    "cf": "0.13.0"
+  }
+}
